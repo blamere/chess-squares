@@ -1,0 +1,47 @@
+.Squares {
+  text-align: center;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    /*float: inline-start;*/
+    padding: 5%;
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+.light {
+    background-color: lightgrey;
+}
+.dark {
+    background-color: darkgray;
+}
+
+.info {
+    display: block;
+    margin: 10px auto;
+}
+
+.question {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Button {
+    border: 1px solid black;
+    font: inherit;
+    padding: 8px;
+    background-color: #12531b;
+    color: white;
+  }
+  
+  .Button:hover,
+  .Button:active {
+    background-color: #d6c579;
+    color: black;
+  }
